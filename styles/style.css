@@ -23,7 +23,6 @@ body{
 }
 
 .cabecalho{
-    background-color: black;
     width: 100%;
     padding: 2% 0% 2% 15%;
     display: block;
@@ -142,6 +141,12 @@ body{
     .cabecalho{
         padding: 10%;
     }
+    .cabecalho__menu{
+        gap: 5px;
+    }
+    .cabecalho__menu__link{
+        font-size: 0.5rem;
+    }
     .apresentacao{
         flex-direction: column-reverse;
         padding: 40% 5% 5% 5%;
@@ -153,6 +158,10 @@ body{
     .apresentacao__conteudo{
         width: auto;
         margin-right: 0px;
+
+    }
+    .rodape{
+        font-size: 0.5rem;
 
     }
    

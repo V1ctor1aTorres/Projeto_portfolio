@@ -25,7 +25,7 @@ body{
 .cabecalho{
     background-color:var(--cor-primaria);
     width: 100%;
-    padding: 2% 0% 2% 15%;
+    padding: 2% 15% 2% 15%;
     display: block;
     position: fixed;
 }
@@ -148,10 +148,11 @@ body{
 
 @media(max-width:600px){
     .cabecalho__menu{
+        justify-content: center;
         gap: 30px;
     }
     .cabecalho__menu__link{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .rodape{
         font-size: 1rem;
@@ -161,13 +162,14 @@ body{
 
 @media(max-width:1200px){
     .cabecalho{
-        padding: 10%;
+        padding: 10% 0% 2% 0%;
     }
     .cabecalho__menu{
+        justify-content: center;
         gap: 30px;
     }
     .cabecalho__menu__link{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .apresentacao{
         flex-direction: column-reverse;

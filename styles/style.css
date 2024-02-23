@@ -4,7 +4,7 @@
 :root{
     --cor-primaria:#000000;
     --cor-secundaria:#F6F6F6;
-    --cor-terciaria:#22D4FD;
+    --cor-terciaria:#f2a450;
     --cor-hover: #272727;
 
     --fonte-principal: 'Anta', sans-serif;
@@ -144,12 +144,16 @@ body{
 
 .apresentacao__img{
     width: 50%;
+    border-radius: 10px;
+    border: 2px solid var(--cor-terciaria);
 }
 
 @media(max-width:600px){
     .cabecalho__menu{
         justify-content: center;
-        gap: 30px;
+        gap: 10px;
+        padding-left: 1%;
+        padding-right: 1%;
     }
     .cabecalho__menu__link{
         font-size: 1.5rem;
@@ -167,6 +171,8 @@ body{
     .cabecalho__menu{
         justify-content: center;
         gap: 30px;
+        padding-left: 1%;
+        padding-right: 1%;
     }
     .cabecalho__menu__link{
         font-size: 1.5rem;

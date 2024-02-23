@@ -1,5 +1,5 @@
-# Projeto_portifolio
- Site portifolio criado no curso "Formação Iniciante em Programação T6-ONE" do Programa Oracle Next Education.
+# Projeto_portfolio
+ Site portfolio criado no curso "Formação Iniciante em Programação T6-ONE" do Programa Oracle Next Education.
  Acrescimos:
  - Página "Projetos" e pagina "Curriculo";
  - Menu fixo;

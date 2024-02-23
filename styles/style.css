@@ -83,6 +83,15 @@ body{
     font-size: 2.5rem;
     font-family: var(--fonte-principal);
 }
+.destaque-paragrafo{
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+}
+.destaque-paragrafo-aws a{
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    text-decoration: none;
+}
 
 .apresentacao__conteudo__texto{
     font-size: 1.5rem;
